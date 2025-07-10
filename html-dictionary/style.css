@@ -1,0 +1,56 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+code {
+    color: limegreen;
+   
+}
+
+img {
+    width: 100px;
+    border: groove 5px tomato;
+}
+
+a {
+    color: tomato;
+}
+
+mark {
+    background-color: gold;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: dotted 3px tomato;
+}
+
+@media screen and (max-width: 704px) {
+    body {
+        background-color: lime;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    code {
+        color: tomato;
+    }
+
+    p {
+        color: chartreuse;
+    }
+
+    li {
+        color: greenyellow;
+    }
+}
